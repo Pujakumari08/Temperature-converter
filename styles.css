@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.theme-toggle {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.theme-toggle label {
+  margin-left: 5px;
+}
+
+.temperature-inputs {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.temperature-inputs label {
+  font-weight: bold;
+  display: block;
+}
+
+.temperature-inputs input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .container {
+  background-color: #444;
+}
+
+.dark-mode h1 {
+  color: #fff;
+}
+
+.dark-mode .temperature-inputs {
+  background-color: #555;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .temperature-inputs label {
+  color: #fff;
+}
+
+.dark-mode .temperature-inputs input[type="number"] {
+  background-color: #666;
+  color: #fff;
+  border-color: #666;
+}
